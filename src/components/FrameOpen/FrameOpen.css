@@ -1,0 +1,144 @@
+.container-frame {
+    background-color: #fff;
+    width: 70rem;
+    margin: 3.2rem auto;
+    /* transform: translateY(-100%);
+    transition: transform 5s ease-in-out; */
+  }
+
+  /* .hidden {
+    display: none;
+  }
+  
+  .container-frame.hidden {
+    transform: translateY(-100%);
+    box-shadow: none;
+  } */
+  
+/* .container-frame {
+    width: 70rem;
+    margin: 3.2rem auto;
+    transition: top 5s ease-in-out;
+} */
+
+.title-frame {
+    font-size: 24px;
+    font-weight: 500;
+    color: #49494B;
+}
+
+.frame-open {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    background-color: #FFF;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 0 0 25px 25px;
+}
+
+.visible {
+    display: block;
+  }
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.filter-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #FFF;
+}
+
+.filter-ul > li {
+    background-color: #FFF;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.filter-link {
+    text-decoration: none;
+    color:#ACACAC;
+    font-size: 16px;
+    font-weight: 300;
+} 
+
+.recommendation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    width: 850px;
+    border-radius: 15px;
+    background-color: #FFF;
+    box-shadow: 0 0.5rem 1rem rgba(37, 37, 37, 0.2);
+}
+
+.space-around-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gap {
+    gap: 10rem;
+}
+
+.content-recommendation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hotel-name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.recommendation-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.location-text {
+    font-weight: 300;
+}
+
+.rating-text {
+    font-weight: 500;
+}
+
+.bottom {
+    margin-bottom: 1rem;
+}
+
+.recommendation-desc {
+    color: #49494B;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.flex-end {
+    font-weight: 300;
+    align-items: flex-end;
+}
+
+.before-discount {
+    text-decoration: line-through;
+}
+
+.after-discount {
+    font-size: 20px;
+    color: #FE3838;
+}

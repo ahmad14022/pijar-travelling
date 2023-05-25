@@ -1,0 +1,53 @@
+.footer-container {
+    border-radius: 5px 5px 0 0;
+    background-color: #FE3838;
+    padding: 4.8rem 2.4rem 3.2rem 2.4rem;
+}
+
+.footer-heading {
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.footer-nav {
+    list-style: none;
+}
+
+.footer-link {
+    font-size: 1rem;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.app {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.mb {
+    margin-bottom: 3.2rem;
+}
+
+.term {
+    list-style: none;
+}
