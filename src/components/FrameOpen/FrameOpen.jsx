@@ -26,16 +26,16 @@ const FrameOpen = () => {
                 <div className="recommendation">
                     <span className="title-frame">Recommendation</span>
                     <div className="content">
-                        <img src={Hotel1} alt="" />
+                        <img src={Hotel1} alt="Hotel Sentra Cawang" />
                         <div className="space-around-container gap">
                             <div className="content-recommendation">
                                 <span className="hotel-name">Hotel Sentral Cawang Jakarta</span>
                                 <div className="recommendation-text">
-                                    <img src={MapPin} alt="" />
+                                    <img src={MapPin} alt="Location" />
                                     <span className="location-text">Kramat Jati, Jakarta Timur</span>
                                 </div>
                                 <div className="recommendation-text bottom">
-                                    <img src={RatingStar} alt="" />
+                                    <img src={RatingStar} alt="Rating Hotel" />
                                     <span className="rating-text">4.5</span>
                                 </div>
                                 <div className="recommendation-desc">
@@ -47,7 +47,7 @@ const FrameOpen = () => {
                                 </div>
                             </div>
                             <div className="content-recommendation flex-end">
-                                <img src={RecommendationIcon} height="38px" width="38px" alt="" />
+                                <img src={RecommendationIcon} height="38px" width="38px" alt="Like Icon" />
                                 <span className="recommended-text">Rest of the room</span>
                                 <span>5</span>
                                 <span className="before-discount">IDR 390.000</span>
@@ -57,16 +57,16 @@ const FrameOpen = () => {
                         </div>
                     </div>
                     <div className="content">
-                        <img src={Hotel2} alt="" />
+                        <img src={Hotel2} alt="Artotel Suites" />
                         <div className="space-around-container gap">
                             <div className="content-recommendation">
                                 <span className="hotel-name">Artotel Suites Mangkuluhur</span>
                                 <div className="recommendation-text">
-                                    <img src={MapPin} alt="" />
+                                    <img src={MapPin} alt="Location" />
                                     <span className="location-text">Setia Budi, Jakarta</span>
                                 </div>
                                 <div className="recommendation-text bottom">
-                                    <img src={RatingStar} alt="" />
+                                    <img src={RatingStar} alt="Rating Hotel" />
                                     <span className="rating-text">5</span>
                                 </div>
                                 <div className="recommendation-desc">
@@ -78,7 +78,7 @@ const FrameOpen = () => {
                                 </div>
                             </div>
                             <div className="content-recommendation flex-end">
-                                <img src={RecommendationIcon} height="38px" width="38px" alt="" />
+                                <img src={RecommendationIcon} height="38px" width="38px" alt="Like Icon" />
                                 <span className="recommended-text">Rest of the room</span>
                                 <span>5</span>
                                 <span className="before-discount">IDR 980.000</span>
@@ -88,16 +88,16 @@ const FrameOpen = () => {
                         </div>
                     </div>
                     <div className="content">
-                        <img src={Hotel4} alt="" />
+                        <img src={Hotel4} alt="ASTON Kartika Hotel" />
                         <div className="space-around-container gap">
                             <div className="content-recommendation">
                                 <span className="hotel-name">ASTON Kartika Hotel</span>
                                 <div className="recommendation-text">
-                                    <img src={MapPin} alt="" />
+                                    <img src={MapPin} alt="Location" />
                                     <span className="location-text">Grogol, Jakarta Barat</span>
                                 </div>
                                 <div className="recommendation-text bottom">
-                                    <img src={RatingStar} alt="" />
+                                    <img src={RatingStar} alt="Rating Hotel" />
                                     <span className="rating-text">5</span>
                                 </div>
                                 <div className="recommendation-desc">
@@ -109,7 +109,7 @@ const FrameOpen = () => {
                                 </div>
                             </div>
                             <div className="content-recommendation flex-end">
-                                <img src={RecommendationIcon} height="38px" width="38px" alt="" />
+                                <img src={RecommendationIcon} height="38px" width="38px" alt="Like Icon" />
                                 <span className="recommended-text">Rest of the room</span>
                                 <span>5</span>
                                 <span className="before-discount">IDR 860.000</span>
@@ -119,16 +119,16 @@ const FrameOpen = () => {
                         </div>
                     </div>
                     <div className="content">
-                        <img src={Hotel3} alt="" />
+                        <img src={Hotel3} alt="Yuan Garden" />
                         <div className="space-around-container gap">
                             <div className="content-recommendation">
                                 <span className="hotel-name">Yuan Garden Pasar Baru</span>
                                 <div className="recommendation-text">
-                                    <img src={MapPin} alt="" />
+                                    <img src={MapPin} alt="Location" />
                                     <span className="location-text">Sawah Besar, Jakarta Pusat</span>
                                 </div>
                                 <div className="recommendation-text bottom">
-                                    <img src={RatingStar} alt="" />
+                                    <img src={RatingStar} alt="Rating Hotel" />
                                     <span className="rating-text">4.5</span>
                                 </div>
                                 <div className="recommendation-desc">
@@ -140,7 +140,7 @@ const FrameOpen = () => {
                                 </div>
                             </div>
                             <div className="content-recommendation flex-end">
-                                <img src={RecommendationIcon} height="38px" width="38px" alt="" />
+                                <img src={RecommendationIcon} height="38px" width="38px" alt="Like Icon" />
                                 <span className="recommended-text">Rest of the room</span>
                                 <span>5</span>
                                 <span className="before-discount">IDR 390.000</span>

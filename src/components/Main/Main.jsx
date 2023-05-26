@@ -88,16 +88,16 @@ const Main = () => {
                             <div className="card swiper-slide">
                                 <div className="image-content">
                                     <div className="card-image">
-                                        <img src={Hawai} alt="" className="card-img" />
+                                        <img src={Hawai} alt="Hawai" className="card-img" />
                                     </div>
                                 </div>
                                 <div className="card-content">
                                     <h2 className="name">Ocean Villas at Turtle Bay</h2>
                                     <div className="fav-location">
-                                        <img src={MapPin} alt="" /><span>Kahuku,
+                                        <img src={MapPin} alt="Location" /><span>Kahuku,
                                             <span className="txt-bold"> Hawaii</span></span>
                                         <div className="fav-rate">
-                                            <img src={RatingStar} alt="" /><span>4.8</span>
+                                            <img src={RatingStar} alt="Rating Star" /><span>4.8</span>
                                         </div>
                                     </div>
                                     <p className="description">With Turtle Beach reachable in 300 metres, Ocean Villas at Turtle Bay offers accommodation, a restaurant...</p>
@@ -110,16 +110,16 @@ const Main = () => {
                             <div className="card swiper-slide">
                                 <div className="image-content">
                                     <div className="card-image">
-                                        <img src={Mercure} alt="" className="card-img" />
+                                        <img src={Mercure} alt="Mercure" className="card-img" />
                                     </div>
                                 </div>
                                 <div className="card-content">
                                     <h2 className="name">Mercure</h2>
                                     <div className="fav-location">
-                                        <img src={MapPin} alt="" /><span>Bali,
+                                        <img src={MapPin} alt="Location" /><span>Bali,
                                             <span className="txt-bold"> Indonesia</span></span>
                                         <div className="fav-rate">
-                                            <img src={RatingStar} alt="" /><span>4.9</span>
+                                            <img src={RatingStar} alt="Rating Star" /><span>4.9</span>
                                         </div>
                                     </div>
                                     <p className="description">Located in the middle of Bali's Kuta Beach, Bali's most famous beach, most popular tourist spot, and...</p>
@@ -132,16 +132,16 @@ const Main = () => {
                             <div className="card swiper-slide">
                                 <div className="image-content">
                                     <div className="card-image">
-                                        <img src={Egypt} alt="" className="card-img" />
+                                        <img src={Egypt} alt="Egypt" className="card-img" />
                                     </div>
                                 </div>
                                 <div className="card-content">
                                     <h2 className="name">Pavilion Winter</h2>
                                     <div className="fav-location">
-                                        <img src={MapPin} alt="" /><span>Luxor,
+                                        <img src={MapPin} alt="Location" /><span>Luxor,
                                             <span className="txt-bold"> Egypt</span></span>
                                         <div className="fav-rate">
-                                            <img src={RatingStar} alt="" /><span>4.5</span>
+                                            <img src={RatingStar} alt="Rating Star" /><span>4.5</span>
                                         </div>
                                     </div>
                                     <p className="description">Pavillon Winter Luxor offers 3 restaurants, 2 bars, and warm hospitality in the heart of Luxor city...</p>
@@ -160,10 +160,10 @@ const Main = () => {
                                 <div className="card-content">
                                     <h2 className="name">Pesona Alam Resort & Spa</h2>
                                     <div className="fav-location">
-                                        <img src={MapPin} alt="" /><span>Kab. Bogor,
+                                        <img src={MapPin} alt="Location" /><span>Kab. Bogor,
                                             <span className="txt-bold">Indonesia</span></span>
                                         <div className="fav-rate">
-                                            <img src={RatingStar} alt="" /><span>4.6</span>
+                                            <img src={RatingStar} alt="Rating Star" /><span>4.6</span>
                                         </div>
                                     </div>
                                     <p className="description">THE HIDDEN GEM IN PUNCAK. Settled on top of a hill in Cisarua, Pesona Alam is a Resort dedicated to...</p>
@@ -180,16 +180,16 @@ const Main = () => {
                             <div className="card swiper-slide">
                                 <div className="image-content">
                                     <div className="card-image">
-                                        <img src={RizCartlon} alt="" className="card-img" />
+                                        <img src={RizCartlon} alt="Ritz Cartlon" className="card-img" />
                                     </div>
                                 </div>
                                 <div className="card-content">
                                     <h2 className="name">Ritz Cartlon</h2>
                                     <div className="fav-location">
-                                        <img src={MapPin} alt="" /><span>Bali,
+                                        <img src={MapPin} alt="Location" /><span>Bali,
                                             <span className="txt-bold">Indonesia</span></span>
                                         <div className="fav-rate">
-                                            <img src={RatingStar} alt="" /><span>4.9</span>
+                                            <img src={RatingStar} alt="Rating Star" /><span>4.9</span>
                                         </div>
                                     </div>
                                     <p className="description">Escape to The Ritz-Carlton, Bali, a five-star resort hotel in Nusa Dua with luxury beachfront villas, a spa, ocean-view...</p>
@@ -202,16 +202,16 @@ const Main = () => {
                             <div className="card swiper-slide">
                                 <div className="image-content">
                                     <div className="card-image">
-                                        <img src={Singhasari} alt="" className="card-img" />
+                                        <img src={Singhasari} alt="Singhasari Resort" className="card-img" />
                                     </div>
                                 </div>
                                 <div className="card-content">
                                     <h2 className="name">Singhasari Resort</h2>
                                     <div className="fav-location">
-                                        <img src={MapPin} alt="" /><span>Kota Batu,
+                                        <img src={MapPin} alt="Location" /><span>Kota Batu,
                                             <span className="txt-bold">Indonesia</span></span>
                                         <div className="fav-rate">
-                                            <img src={RatingStar} alt="" /><span>4.7</span>
+                                            <img src={RatingStar} alt="Rating Star" /><span>4.7</span>
                                         </div>
                                     </div>
                                     <p className="description">SINGHASARI RESORT, a fine resort located in Malang, Jawa Timur, is a perfect blend of Indonesian culture...</p>
@@ -230,7 +230,7 @@ const Main = () => {
                 <div className="container-heading">
                     <h2 className="container-text">Partnership</h2>
                 </div>
-                <img src={Partnership} alt="" />
+                <img src={Partnership} alt="Partner Pijar" />
                 <div className="container-desc">
                     <p className="container-desc">
                         We have collaborated with several well-known hotels and destinations that will
@@ -246,7 +246,7 @@ const Main = () => {
                 </div>
                 <div className="grid grid--3--cols--row">
                     <div className="qna grid">
-                        <img className="qna-img" src={Click} alt="" />
+                        <img className="qna-img" src={Click} alt="just one click" />
                     </div>
                     <div className="qna-desc first-qna">
                         <p className="container-desc">Hotel reservations are very easy and fast, hassle-free, your hotel reservations are saved with one click.</p>
@@ -255,10 +255,10 @@ const Main = () => {
                         <p className="container-desc">Many hotel choices around the world, almost 85% cooperate with hotels and villas around the world, you don't need to be afraid to travel and have a vacation.</p>
                     </div>
                     <div className="qna grid">
-                        <img className="qna-img" src={Location} alt="" />
+                        <img className="qna-img" src={Location} alt="easy to find hotel" />
                     </div>
                     <div className="qna grid">
-                        <img className="qna-img" src={Ecard} alt="" />
+                        <img className="qna-img" src={Ecard} alt="easy to pay" />
                     </div>
                     <div className="qna-desc third-qna">
                         <p className="container-desc">By using a subscription e-card, you can get discounts up to 90% * and earn Pijar Travel points which can be exchanged for other promos.</p>
