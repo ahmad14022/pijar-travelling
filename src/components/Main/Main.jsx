@@ -1,12 +1,6 @@
 import React, { useEffect } from 'react';
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.min.css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-// import '../../../node_modules/swiper/swi';
-// import 'swiper/swiper-bundle.min.js';
-// import { IonIcon } from '@ionic/react';
-// import { locationOutline, starOutline } from 'ionicons/icons';
 import MembershipCard from '../../assets/images/membership-card.png';
 import Hawai from '../../assets/images/hawaii.png';
 import Mercure from '../../assets/images/bali.png';
@@ -18,12 +12,14 @@ import Partnership from '../../assets/images/partnership.png';
 import Click from '../../assets/images/one-click.png';
 import Location from '../../assets/images/location.png';
 import Ecard from '../../assets/images/e-card.png';
+import MapPin from '../../assets/images/map-pin.png';
+import RatingStar from '../../assets/images/rating-star.png';
 import './Main.css';
 
 const Main = () => {
     useEffect(() => {
-        const swiper = new Swiper(".slide-content", {
-            slidesPerView: 2,
+        var swiper = new Swiper(".slide-content", {
+            slidesPerView: 3,
             spaceBetween: 25,
             loop: true,
             centerSlide: true,
@@ -98,10 +94,10 @@ const Main = () => {
                                 <div className="card-content">
                                     <h2 className="name">Ocean Villas at Turtle Bay</h2>
                                     <div className="fav-location">
-                                        <ion-icon name="location-outline"></ion-icon><span>Kahuku,
+                                        <img src={MapPin} alt="" /><span>Kahuku,
                                             <span className="txt-bold"> Hawaii</span></span>
                                         <div className="fav-rate">
-                                            <ion-icon name="star-outline"></ion-icon><span>4.8</span>
+                                            <img src={RatingStar} alt="" /><span>4.8</span>
                                         </div>
                                     </div>
                                     <p className="description">With Turtle Beach reachable in 300 metres, Ocean Villas at Turtle Bay offers accommodation, a restaurant...</p>
@@ -120,10 +116,10 @@ const Main = () => {
                                 <div className="card-content">
                                     <h2 className="name">Mercure</h2>
                                     <div className="fav-location">
-                                        <ion-icon name="location-outline"></ion-icon><span>Bali,
+                                        <img src={MapPin} alt="" /><span>Bali,
                                             <span className="txt-bold"> Indonesia</span></span>
                                         <div className="fav-rate">
-                                            <ion-icon name="star-outline"></ion-icon><span>4.9</span>
+                                            <img src={RatingStar} alt="" /><span>4.9</span>
                                         </div>
                                     </div>
                                     <p className="description">Located in the middle of Bali's Kuta Beach, Bali's most famous beach, most popular tourist spot, and...</p>
@@ -142,10 +138,10 @@ const Main = () => {
                                 <div className="card-content">
                                     <h2 className="name">Pavilion Winter</h2>
                                     <div className="fav-location">
-                                        <ion-icon name="location-outline"></ion-icon><span>Luxor,
+                                        <img src={MapPin} alt="" /><span>Luxor,
                                             <span className="txt-bold"> Egypt</span></span>
                                         <div className="fav-rate">
-                                            <ion-icon name="star-outline"></ion-icon><span>4.5</span>
+                                            <img src={RatingStar} alt="" /><span>4.5</span>
                                         </div>
                                     </div>
                                     <p className="description">Pavillon Winter Luxor offers 3 restaurants, 2 bars, and warm hospitality in the heart of Luxor city...</p>
@@ -164,10 +160,10 @@ const Main = () => {
                                 <div className="card-content">
                                     <h2 className="name">Pesona Alam Resort & Spa</h2>
                                     <div className="fav-location">
-                                        <ion-icon name="location-outline"></ion-icon><span>Kab. Bogor,
+                                        <img src={MapPin} alt="" /><span>Kab. Bogor,
                                             <span className="txt-bold">Indonesia</span></span>
                                         <div className="fav-rate">
-                                            <ion-icon name="star-outline"></ion-icon><span>4.6</span>
+                                            <img src={RatingStar} alt="" /><span>4.6</span>
                                         </div>
                                     </div>
                                     <p className="description">THE HIDDEN GEM IN PUNCAK. Settled on top of a hill in Cisarua, Pesona Alam is a Resort dedicated to...</p>
@@ -190,10 +186,10 @@ const Main = () => {
                                 <div className="card-content">
                                     <h2 className="name">Ritz Cartlon</h2>
                                     <div className="fav-location">
-                                        <ion-icon name="location-outline"></ion-icon><span>Bali,
+                                        <img src={MapPin} alt="" /><span>Bali,
                                             <span className="txt-bold">Indonesia</span></span>
                                         <div className="fav-rate">
-                                            <ion-icon name="star-outline"></ion-icon><span>4.9</span>
+                                            <img src={RatingStar} alt="" /><span>4.9</span>
                                         </div>
                                     </div>
                                     <p className="description">Escape to The Ritz-Carlton, Bali, a five-star resort hotel in Nusa Dua with luxury beachfront villas, a spa, ocean-view...</p>
@@ -212,26 +208,21 @@ const Main = () => {
                                 <div className="card-content">
                                     <h2 className="name">Singhasari Resort</h2>
                                     <div className="fav-location">
-                                        <ion-icon name="location-outline"></ion-icon><span>Kota Batu,
+                                        <img src={MapPin} alt="" /><span>Kota Batu,
                                             <span className="txt-bold">Indonesia</span></span>
                                         <div className="fav-rate">
-                                            <ion-icon name="star-outline"></ion-icon><span>4.7</span>
+                                            <img src={RatingStar} alt="" /><span>4.7</span>
                                         </div>
                                     </div>
                                     <p className="description">SINGHASARI RESORT, a fine resort located in Malang, Jawa Timur, is a perfect blend of Indonesian culture...</p>
                                     <div className="fav-price">
                                         <span className="price">IDR 1.250.000</span>
                                         <span className="quota">per room per night</span>
-
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                    <div className="swiper-button-next swiper-navBtn"></div>
-                    <div className="swiper-button-prev swiper-navBtn"></div>
-                    <div className="swiper-pagination"></div>
                 </div>
             </section>
 
