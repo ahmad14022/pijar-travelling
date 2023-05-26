@@ -60,8 +60,6 @@
 
 .booking-tab {
     position: absolute;
-    /* width: 730px; */
-    /* height: 100px; */
     top: 80%;
     left: 16%;
     background-color: #FFF;
@@ -108,11 +106,9 @@ input[type=text] {
 
 }
 
-
 .input-guest::placeholder {
     color: black;
-  }
-  
+}
 
 .res-location,
 .date,
@@ -153,7 +149,7 @@ input[type=text] {
     gap: 1rem;
 }
 
-.guest-type{
+.guest-type {
     display: flex;
     gap: 3rem;
     justify-content: space-between;
@@ -182,18 +178,20 @@ input[type=text] {
     justify-content: center;
 }
 
-.minus:focus,
-.plus:focus {
+.minus:hover,
+.plus:hover {
     border: none;
     color: #ACACAC;
 }
 
+.minus:link,
+.plus:link,
 .minus:visited,
 .plus:visited {
     color: #333;
 }
 
-.num{
+.num {
     margin: 0;
     width: 1.5rem;
     border: none;
@@ -201,7 +199,6 @@ input[type=text] {
 }
 
 .done-button {
-    /* z-index: 1; */
     cursor: pointer;
     border: none;
     background-color: #4070F4;
@@ -211,7 +208,6 @@ input[type=text] {
 }
 
 .done-button:hover {
-    /* z-index: 1; */
     box-shadow: 0 0.5rem 1rem rgba(37, 37, 37, 0.2);
 }
 
@@ -227,10 +223,15 @@ input[type=text] {
     border: none;
     outline: none;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    font-size: 1.5rem;
+    top: 0.1rem;
+    right: 0.5rem;
     cursor: pointer;
     background: transparent;
+}
+
+.close-modal:hover {
+    color: #FE3838;
 }
 
 .start-button {
